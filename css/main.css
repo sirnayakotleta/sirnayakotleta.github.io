@@ -86,7 +86,7 @@ header #logo span {
 
 .fixed {
   z-index: 5000;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   border-bottom: 1px solid silver;
 }
 
@@ -310,22 +310,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn {
-  border: 0;
-  background: #0087cc;
-  border-radius: 4px;
-  box-shadow: 0 5px 0 #006599;
-  color: #fff;
+  float: left;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 1.2em;
+  background-color: #ec6550;
+  text-shadow: #454545 0 0 2px;
   cursor: pointer;
-  font: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 12px 20px;
-  transition: all .1s linear;
+  color: white;
+  font-family: 'Roboto Slab', serif;
 }
 
-.btn:active {
-  box-shadow: 0 2px 0 #006599;
-  transform: translateY(3px);
+.btn:hover {
+  background-color: #c15443;
 }
 
 /* Вопросы и ответы */
@@ -375,4 +372,3 @@ h1, h2, h3, h4, h5 {
   font-size: 0.95em;
   margin-bottom: 40px;
 }
-
